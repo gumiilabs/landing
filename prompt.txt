@@ -1,0 +1,214 @@
+You are a senior product designer, creative director, and frontend engineer.
+
+Your task is to design and build a highly intentional, non-generic website for a creative technology lab called “Gumii Labs”. you are a fan of jony ive and dieter rams 
+
+This is NOT a typical startup site. It must feel curated, designed, and human.
+
+---
+
+## Core Identity
+
+Gumii Labs is a hybrid of:
+
+* a moonshot factory (like x.company)
+* a creative lab / artist residency
+* a technology incubator
+
+It explores:
+AI, spatial computing, music, education, space systems, and experimental ideas.
+
+The brand feeling should be:
+
+* minimal but expressive
+* calm but intriguing
+* technical but artistic
+* like stepping into a curated digital space, not a product page
+
+---
+
+## Visual System (STRICT)
+
+* Base UI: black, white, and red
+* Red should be used sparingly as an accent (interactive states, highlights, markers)
+* Background: primarily white or black sections (alternating is acceptable)
+* Typography:
+
+  * Primary: News Gothic (or closest equivalent)
+  * Secondary: Courier (used for labels, metadata, system text)
+
+Avoid:
+
+* generic gradients
+* startup blues/purples
+* overdesigned glassmorphism
+* anything that looks like a template
+
+---
+
+## Interaction & Motion (VERY IMPORTANT)
+
+The site must feel alive through motion, but in a refined way.
+
+Reference animation styles and pacing from:
+
+* https://freshman.tv/ (initial load animation energy and entrance)
+* https://www.motherdesign.com (controlled, minimal motion)
+* https://www.therawmaterials.com/unusual-index (creative transitions and uniqueness)
+
+Guidelines:
+
+* Smooth, intentional transitions
+* Subtle but memorable hover states
+* Page elements should reveal progressively (not all at once)
+* Avoid over-animation or gimmicks
+
+---
+
+## Emotional Direction
+
+The site should evoke the feeling of:
+
+* https://kobu.co/ → calm, elevated, almost like a digital vacation
+* a sense of space, breathing room, and clarity
+
+Users should feel:
+“I want to explore this place”
+
+---
+
+## Structural Inspiration
+
+Use https://x.company/ as the primary reference for:
+
+* vertical flow
+* section hierarchy
+* how projects are introduced
+
+---
+
+## Site Structure
+
+### 1. Hero Section
+
+* Minimal top navigation
+* Logo: “gumii” (lowercase)
+* Headline:
+  “building simple tools from complex ideas”
+* Subtext:
+  “AI · spatial · music · education · systems”
+* CTA:
+  [Enter Lab] or [Explore]
+
+Include a refined entrance animation inspired by freshman.tv
+
+---
+
+### 2. Featured Project (Priority)
+
+Highlight:
+“Spatial IDE”
+
+* short description
+* status: “launching soon”
+* CTA: “View Project”
+
+This section should feel important but not loud.
+
+---
+
+### 3. Lab / Projects Section
+
+Grid or vertical layout inspired by x.company
+
+Projects include:
+
+* Spatial IDE
+* AI Music
+* Education Platform
+* Space Systems
+* Experimental
+
+Each item:
+
+* name
+* 1-line description
+* status (idea / prototype / live)
+
+---
+
+### 4. Philosophy Section
+
+Short, editorial:
+
+We build tools, not just ideas.
+We simplify complex systems.
+We explore across disciplines.
+We ship and evolve.
+
+---
+
+### 5. Footer
+
+Minimal:
+gumii labs
+explore / projects / contact
+
+---
+
+## UX Principles
+
+* Strong spacing and rhythm
+* Typography-first design
+* No clutter
+* No “startup fluff”
+* Every element must feel intentional
+
+---
+
+## Anti-AI Design Rules (CRITICAL)
+
+The site must NOT:
+
+* look like a generic SaaS landing page
+* use common UI patterns without modification
+* feel templated or repetitive
+* overuse identical cards or sections
+
+Instead:
+
+* vary layouts slightly across sections
+* introduce small asymmetries
+* use restraint and negative space
+* prioritize composition over components
+
+---
+
+## Tech Requirements
+
+* Use React (Next.js)
+* Tailwind CSS
+* Framer Motion for animations
+* Clean component structure
+
+---
+
+## Output
+
+Provide:
+
+1. Full homepage implementation
+2. Component breakdown (Header, Hero, ProjectSection, etc.)
+3. Animation logic (Framer Motion)
+4. Scalable structure for future pages
+
+---
+
+## Final Note
+
+This should feel like a cross between:
+
+* a research lab
+* a design studio
+* and a digital exhibition space
+
+Not a startup landing page.
