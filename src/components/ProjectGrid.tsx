@@ -75,7 +75,7 @@ export const ProjectGrid = () => {
   );
 };
 
-const ProjectItem = ({ project }: { project: any }) => {
+const ProjectItem = ({ project, index }: { project: any, index: number }) => {
   const container = useRef(null);
   const [hovered, setHovered] = useState(false);
   
