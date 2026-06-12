@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { News_Cycle, Courier_Prime } from "next/font/google";
+import { Saira, Cousine } from "next/font/google";
 import "./globals.css";
 
-const newsCycle = News_Cycle({
-  weight: ["400", "700"],
+const saira = Saira({
+  weight: ["400", "500", "700"],
   subsets: ["latin"],
-  variable: "--font-news-cycle",
+  variable: "--font-saira",
 });
 
-const courierPrime = Courier_Prime({
+const cousine = Cousine({
   weight: ["400", "700"],
   subsets: ["latin"],
-  variable: "--font-courier-prime",
+  variable: "--font-cousine",
 });
 
 export const metadata: Metadata = {
@@ -25,10 +25,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${newsCycle.variable} ${courierPrime.variable} h-full antialiased`}
-    >
+      <html
+        lang="en"
+        className={`${saira.variable} ${cousine.variable} h-full antialiased`}
+      >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
