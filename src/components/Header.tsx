@@ -14,6 +14,7 @@ export const Header = () => {
       
       <nav className="flex gap-10 text-[10px] font-mono uppercase tracking-[0.3em]">
         <Link href="/lab" className="hover:text-accent transition-colors duration-300">Lab</Link>
+        <Link href="/work" className="hover:text-accent transition-colors duration-300">Work</Link>
       </nav>
     </motion.header>
   );
